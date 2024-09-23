@@ -18,7 +18,7 @@ app.post('/generate-image', async (req, res) => {
         }
 
         const response = await axios.post(
-            "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
+            "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell",
             { inputs: prompt },
             {
                 headers: {
